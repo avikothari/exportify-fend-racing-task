@@ -20,6 +20,12 @@ export class AppService {
       .pipe(catchError(this.handleError));
   }
 
+  public getTeams() {
+    return this.http
+      .get(`${this.api}/teams`)
+      .pipe(catchError(this.handleError));
+  }
+
 
   setUsername(name: string): void {
     this.username = name;
