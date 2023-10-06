@@ -15,7 +15,6 @@ Member properties
 5. Team
 
 ### Acceptance Criteria
-* **Angular unit tests should pass with code coverage of at least 80% on all files **
 * On the member summary page (List of the members), I should be able to navigate to and from the member detail page
 * The member detail form should include fields for each of the member properties
 * Saving the member should redirect me back to the member summary page where I should see the new member listed on the table
@@ -28,6 +27,8 @@ Member properties
 * I should not be able to navigate to members page without being logged on
 * The member detail form should have client-side validation
 * The member detail form should have server-side validation
+* **Angular unit tests should pass with code coverage of at least 80% on all files **
+
 
 _Remember this simulates a mini "Full-Stack" web application so be sure to develop for both server and client_
 
